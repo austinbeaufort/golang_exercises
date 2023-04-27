@@ -7,10 +7,10 @@ import "fmt"
 func Solve0() {
 	fmt.Println("Please enter a word with an Odd number of chars: ")
 	val := GetValidInput()
-	fmt.Println(getChars(val))
+	fmt.Println(GetChars(val))
 }
 
-func getChars(val string) string {
+func GetChars(val string) string {
 	lastIndex := len(val) - 1
 	middleIndex := len(val) / 2
 
@@ -18,21 +18,4 @@ func getChars(val string) string {
 	middle := string(val[middleIndex])
 	last := string(val[lastIndex])
 	return first + middle + last
-}
-
-func GetValidInput() string {
-	for {
-		val := GetStrInput()
-		if checkValid(val) {
-			return val
-		}
-		fmt.Println("String entered was invalid, please enter a valid String: ")
-	}
-
-}
-
-func checkValid(word string) bool {
-	oddNumOfChars := len(word)%2 != 0
-	properLength := len(word) >= 3
-	return oddNumOfChars && properLength
 }
