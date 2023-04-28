@@ -7,7 +7,7 @@ func main() {
 	// Solve3()
 	// Solve4()
 	// Solve5()
-	Solve6()
+	// Solve6()
 	// Solve7()
 	// Solve8()
 	// Solve9()
@@ -19,5 +19,5 @@ func main() {
 	// Solve15()
 	// Solve16()
 	// Solve17()
-	// Solve18()
+	Solve18()
 }
