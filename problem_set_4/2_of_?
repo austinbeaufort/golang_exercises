@@ -1,6 +1,0 @@
-// Separate list of nine ints into 3 equal chunks and reverse each chunk
-package main
-
-func Solve2() {
-
-}
