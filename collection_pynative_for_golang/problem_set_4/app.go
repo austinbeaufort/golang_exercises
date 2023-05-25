@@ -12,11 +12,6 @@ func main() {
 	// Solve9()
 	// Solve10()
 	// Solve11()
-	//Solve12()
+	// Solve12()
 	// Solve13()
-	Solve14()
-	// Solve15()
-	// Solve16()
-	// Solve17()
-	// Solve18()
 }
