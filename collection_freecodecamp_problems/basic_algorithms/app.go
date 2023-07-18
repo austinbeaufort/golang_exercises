@@ -8,6 +8,6 @@ func main() {
 	// Solve5()
 	// Solve6()
 	// Solve7()
-	Solve8()
-	// Solve9()
+	// Solve8()
+	Solve9()
 }
